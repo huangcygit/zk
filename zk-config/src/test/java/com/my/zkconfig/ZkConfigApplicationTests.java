@@ -1,10 +1,10 @@
-package com.my.zkoperator;
+package com.my.zkconfig;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ZkOperatorApplicationTests {
+class ZkConfigApplicationTests {
 
     @Test
     void contextLoads() {

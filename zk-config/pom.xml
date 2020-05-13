@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.my</groupId>
-    <artifactId>zk-operator</artifactId>
+    <artifactId>zk-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zk-operator</name>
+    <name>zk-config</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -35,27 +35,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-recipes</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-        </dependency>
-
     </dependencies>
 
     <build>
